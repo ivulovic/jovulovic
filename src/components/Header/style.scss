@@ -1,0 +1,16 @@
+header.header{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    a{
+        display: block;
+        color: var(--text);
+        text-decoration: none;
+        font-weight: 500;
+        padding: 1rem 0;
+        text-transform: uppercase;  
+        &.active{
+            color: var(--accent);
+        }
+    }
+}

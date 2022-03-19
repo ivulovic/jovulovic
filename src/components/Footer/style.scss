@@ -1,0 +1,16 @@
+footer.footer{
+    width: 100%;
+    margin-top: auto;
+    .social-networks{
+        display: flex;
+        gap: 1rem;
+        margin-top: auto;
+        a{
+            color: var(--text);
+            transition: all 0.3s ease-in-out;
+            &:hover{
+                color: var(--accent);
+            }
+        }
+    }
+}
