@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jovulovic/static/css/main.a8143ea7.css",
+    "main.js": "/jovulovic/static/js/main.f3eaf595.js",
+    "static/js/787.58f01b66.chunk.js": "/jovulovic/static/js/787.58f01b66.chunk.js",
+    "index.html": "/jovulovic/index.html",
+    "main.a8143ea7.css.map": "/jovulovic/static/css/main.a8143ea7.css.map",
+    "main.f3eaf595.js.map": "/jovulovic/static/js/main.f3eaf595.js.map",
+    "787.58f01b66.chunk.js.map": "/jovulovic/static/js/787.58f01b66.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8143ea7.css",
+    "static/js/main.f3eaf595.js"
+  ]
+}
