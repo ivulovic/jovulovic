@@ -28,3 +28,35 @@ body{
             padding: 0 2rem;
         }
 }
+
+@media screen and (max-width: 840px){
+    .page-split {
+        min-height: unset;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 1rem;
+        gap: 1rem;
+        .left{
+            padding: 0rem 1rem 0 1rem;
+        }
+        .right{
+            padding: 0 1rem 1rem 1rem!important;
+        }
+        .main-panel{
+            h1{
+                font-size: 3rem;
+            }
+            a.cv{
+                padding: 0.75rem 0.5rem;
+            }
+            div.links{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                .footer{
+                    display: flex;
+                    justify-content: flex-end;
+                }
+            }
+        }
+    }
+}

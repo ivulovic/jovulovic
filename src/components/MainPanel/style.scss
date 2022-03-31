@@ -50,4 +50,20 @@
             }
         }
     }
+    .links{
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      margin-bottom: auto;
+      .footer{
+          display: flex;
+          justify-content: space-between;
+          .social-networks{
+              svg{
+                  position: relative;
+                  top: 2px;
+              }
+          }
+      }
+    }
 }

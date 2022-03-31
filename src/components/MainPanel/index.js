@@ -6,7 +6,9 @@ export default function MainPanel({preTitle, title: Title, description, link, li
         <p>{preTitle}</p>
         <h1><Title /></h1>
         <h2>{description}</h2>
-        <a target={"_blank"} className="cv" href="/cv.pdf" rel="noreferrer">Download CV</a>
-        <Footer />
+        <div className='links'>
+            <a target={"_blank"} className="cv" href="/cv.pdf" rel="noreferrer">Download CV</a>
+            <Footer />
+       </div>
     </div>
 }
